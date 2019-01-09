@@ -42,9 +42,6 @@ header{
 	margin: 0;
 	margin-right: 8%;
 }
-.clearfix{
-	clear: both;
-}
 .sidebar .nav-block ul{
 	margin: 0;
 	padding: 0;
@@ -145,8 +142,8 @@ header{
 		margin: 52px auto;
 		padding: 0px;
 		top: 0;
-		right:-400px;
-		width: 350px;
+		right:-350px;
+		width: 300px;
 		height: 100%;
 		border-left:2px solid #fff;
 		z-index: 1;
