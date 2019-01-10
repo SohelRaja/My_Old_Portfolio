@@ -207,7 +207,7 @@ footer{
 	left: 50%;
 	transform: translate(-50%,-50%);
 	opacity: 1;
-	animation: 1s slidefade 1s forwards;
+	
 }
 .cards img{
 	border: 3px solid white;
