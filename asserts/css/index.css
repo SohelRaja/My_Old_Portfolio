@@ -223,8 +223,8 @@ footer{
 }
 .cards img{
 	border: 3px solid white;
-	box-shadow:3px 3px 3px 2px #262626;
 	border-radius: 50%;
+	box-shadow:3px 3px 3px 2px #262626;
 }
 .heads{
 	text-align: center;
