@@ -338,10 +338,10 @@ footer{
 #card-set img{
 	width:cover;
 	height: 60%;
-	transition: 0.7s;
+	transition: 0.4s;
 }
 #card-set img:hover{
-	transform: scale(1.2);
+	transform: scale(1.1);
 }
 #project-card{
 	margin: 30px auto;
