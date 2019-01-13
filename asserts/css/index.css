@@ -212,26 +212,13 @@ footer{
 .cards img{
 	border: 3px solid white;
 	border-radius: 50%;
-}/*
-.cards .img-cards{
-	position: absolute;
-	margin: 0 auto;
-	top: 110%;
-	left: 50%;
-	width:100%;
-	height: 100%;
-	border-radius:5px;
-	background-color: white;
-	transform: translate(-50%,-50%);
-	border: 3px solid white;
-	opacity:0.65;
-	z-index: -1;
-}*/
+}
 .heads{
 	text-align: center;
 	margin-top: 5%;
 	padding:0;
 	color: #fff;
+	text-shadow:2px 3px 3px #262626;
 	font-weight: bold;
 	z-index: 1;
 	opacity: 1;
