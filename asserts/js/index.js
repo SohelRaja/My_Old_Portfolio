@@ -12,6 +12,13 @@ $(".popupclose").click(function(){
 		$(this).removeClass("visibility-popup");
 	});
 });
+$(window).on("scroll",function(){
+	if($(window).scrollTop()){
+		$('header').addClass('navcolor');
+	}else{
+		$('header').removeClass('navcolor');
+	}
+});
 function menuToggle(){
 	var toggle = document.querySelector(".menu-toggle");
 	toggle.classList.toggle("active");
