@@ -13,15 +13,18 @@ header{
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-	background: #172f48;/*Nav Bar background color*/
+	background: none;/*Nav Bar background color*/
 	box-sizing: border-box;
 	z-index: 1;
+	transition: 1s;
+}
+header.navcolor{
+	background:#172f48;/*Nav Bar background color #172f48*/ 
 	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 	border-bottom: 3px solid #fff;/*Nav Bar bottom border color*/
 }
 .logo{
 	color:#fff;
-	height: 50px;
 	font-size: 36px;
 	line-height: 50px;
 	padding-left:8%;
@@ -71,6 +74,15 @@ header{
 
 }
 @media(max-width: 1050px){
+	header {
+		background:#172f48;/*Nav Bar background color #172f48*/
+		border-bottom: 2px solid #fff;/*Nav Bar bottom border color*/
+		box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+	}
+	.logo{
+		font-size: 26px;
+		line-height: 40px;
+	}
 	.menu-toggle{
 		display: block;
 		width: 50px;
@@ -314,15 +326,22 @@ footer{
 }
 #card-set{
 	padding:0;
-	height: 315px;
-	width:270px;
+	height: 400px;
+	width:80%;
 	border:none;
 	outline: hidden;
 	margin: 30px auto;
+	display: inline-block;
+	border-top: 2px solid rgba(50,50,50,0.2);
+	overflow: hidden;
 }
 #card-set img{
 	width:cover;
 	height: 60%;
+	transition: 0.7s;
+}
+#card-set img:hover{
+	transform: scale(1.2);
 }
 #project-card{
 	margin: 30px auto;
