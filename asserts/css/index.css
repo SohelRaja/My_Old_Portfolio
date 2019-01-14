@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 #body{
-	background: #47618c;
+	background: rgb(89,97,105);
+	background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 	color:#fff;
 	font-family: 'Barlow', sans-serif;
 }
@@ -19,7 +20,9 @@ header{
 	transition: 1s;
 }
 header.navcolor{
-	background:#172f48;/*Nav Bar background color #172f48*/ 
+	/*Nav Bar background color*/ 
+	background: rgb(89,97,105);
+	background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 	border-bottom: 3px solid #fff;/*Nav Bar bottom border color*/
 }
@@ -75,7 +78,9 @@ header.navcolor{
 }
 @media(max-width: 1050px){
 	header {
-		background:#172f48;/*Nav Bar background color #172f48*/
+		/*Nav Bar background color*/
+		background: rgb(89,97,105);
+		background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 		border-bottom: 2px solid #fff;/*Nav Bar bottom border color*/
 		box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 	}
@@ -159,7 +164,8 @@ header.navcolor{
 		height: 100%;
 		border-left:2px solid #fff;
 		z-index: 1;
-		background: #172f48;
+		background: rgb(89,97,105);
+		background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 		text-align: center;
 		transition: .5s;
 	}
@@ -206,9 +212,12 @@ footer{
 	border-top: 3px solid white;
 	line-height: 40px;
 	text-align: center;
+	background: rgb(89,97,105);
+	background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 }
 .header{
-	background-color:#47618c;
+	background: rgb(89,97,105);
+	background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 	background-size: cover;
 	height: 100vh;
 	width: 100%;
@@ -290,7 +299,8 @@ footer{
 	border-top-left-radius: 6px;
 	border-top-right-radius: 6px;
 	text-align: center;
-	background-color: #47618c;
+	background: rgb(89,97,105);
+	background: linear-gradient(90deg, rgba(89,97,105,1) 0%, rgba(23,47,72,1) 28%, rgba(43,64,87,1) 50%, rgba(23,47,72,1) 72%, rgba(115,123,131,1) 100%);
 }
 #my-color{
 	color: #20c95e;
