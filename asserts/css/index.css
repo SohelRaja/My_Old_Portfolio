@@ -358,7 +358,7 @@ footer{
 	margin-bottom: 10px;
 }
 .card-title{
-		color: #20c95e;
+		color: #fff;
 }
 .card-subtitle, .card-text{
 	color: #172f48;
@@ -429,4 +429,13 @@ footer{
 }
 #social-bg li:hover .fa{
 	color:#fff;
+}
+.card {
+    background:linear-gradient(90deg,rgba(255,255,255,0)0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) !important;
+    box-shadow: 0 0 25px rgba(0,0,0,255),inset 0 0 2px rgba(255,255,255,10);
+    opacity:1;
+    border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.progress {
+    background-color: transparent !important;
 }
