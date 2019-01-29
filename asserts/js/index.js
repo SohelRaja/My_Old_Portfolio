@@ -31,5 +31,5 @@ function menuToggle(){
 }
 function preloader(){
 	var preload = document.querySelector("#preloader");
-	preload.style.display = 'none';
+	preload.style.opacity = 0;
 }
