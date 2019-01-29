@@ -29,3 +29,7 @@ function menuToggle(){
 	var socail = document.querySelector(".nav-social");
 	socail.classList.toggle("active");
 }
+function preloader(){
+	var preload = document.querySelector("#preloader");
+	preload.style.display = 'none';
+}
