@@ -31,6 +31,6 @@ function menuToggle(){
 }
 function preloader(){
 	var preload = document.querySelector("#preloader");
-	preload.style.opacity = 0;
 	preload.style.display = 'none';
+	preload.style.opacity = 0;
 }
