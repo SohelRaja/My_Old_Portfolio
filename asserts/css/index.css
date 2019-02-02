@@ -168,15 +168,16 @@ header.navcolor{
 	float: left;
 	font-weight: bold;
 	text-decoration: none;
-	opacity:1;
+	opacity:0.9;
 	transition: .5s;
 }
 .logo:hover{
 	text-decoration: none;
-	opacity:0.7;
+	color:none;
+	opacity:0.6;
 }
 .logo span{
-	color:#20c95e;
+	color:#def9f3;
 	font-size:30px;
 }
 .sidebar .nav-block{
