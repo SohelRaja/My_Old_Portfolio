@@ -557,19 +557,19 @@ footer{
 	transition: .3s;
 }
 .fa-facebook{
-	color: #3C5A99;
+	color: #fff;/*#3C5A99;*/
 }
 .fa-github{
-	color: #6e5494;
+	color: #fff;/*#6e5494;*/
 }
 .fa-linkedin{
-	color: #0077b5;
+	color: #fff;/*#0077b5;*/
 }
 .fa-google-plus{
-	color: #dd4b39;
+	color: #fff;/*#dd4b39;*/
 }
 .fa-quora{
-	color: #a82400;
+	color: #fff;/*#a82400;*/
 }
 #follow-id li:hover .fa{
 	color: #172f48;
