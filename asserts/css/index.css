@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 #preloader{
 	position:fixed;
 	width: 100%;
