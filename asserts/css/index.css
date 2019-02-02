@@ -173,11 +173,11 @@ header.navcolor{
 }
 .logo:hover{
 	text-decoration: none;
-	color:none;
+	color:#cccccc;
 	opacity:0.6;
 }
 .logo span{
-	color:#def9f3;
+	color:#79f291;
 	font-size:30px;
 }
 .sidebar .nav-block{
